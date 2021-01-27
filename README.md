@@ -95,3 +95,5 @@ for word in total_5_wine_description:
 cnt.most_common()
 ```
 
+<img width="114" alt="Capture13" src="https://user-images.githubusercontent.com/37181764/105988754-6b876000-60a0-11eb-8d62-afe9cbc3b8a9.PNG">
+
