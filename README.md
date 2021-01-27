@@ -37,10 +37,10 @@ check outlayer <br>
 df["variety"].value_counts().head().plot(kind="bar")
 df["country"].value_counts().head().plot(kind="bar")
 ```
+Relation about selling count by wine variety and country with more production 
 <img width="534" alt="Capture6" src="https://user-images.githubusercontent.com/37181764/105985304-96bb8080-609b-11eb-8001-6dbbe5440a37.PNG">
+<br>
 
-
-Relation about Wine Winery and Points, at left we have the wine with more Points and the wine with higghest price  
 ```python
 df.loc[df['price'].idxmax()]
 df.loc[df['points'].idxmax()]
@@ -51,5 +51,7 @@ ax = sn.barplot(x="wine and winery", y="price" ,data=largest_five)
 ax.set_xticklabels(ax.get_xticklabels(),rotation=90)
 ax.set_title("Relation price for wine")
 ```
+<br>
+Relation about Wine Winery and Points, at left we have the wine with more Points and the wine with higghest price  
 
 <img width="647" alt="Capture9" src="https://user-images.githubusercontent.com/37181764/105985751-324cf100-609c-11eb-9cd1-e55ca83b6d0a.PNG">
