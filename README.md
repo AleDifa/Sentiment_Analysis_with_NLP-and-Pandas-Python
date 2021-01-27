@@ -104,3 +104,4 @@ For the market The Pinot Noir by WIlliam Selyem have the best Quality and the lo
 The most wines came from to Us<br>
 The Italian wines have the highest positive scores in the market<br>
 
+<img width="199" alt="Capture14" src="https://user-images.githubusercontent.com/37181764/105988976-be611780-60a0-11eb-8391-ea44d2a8cb68.PNG">
