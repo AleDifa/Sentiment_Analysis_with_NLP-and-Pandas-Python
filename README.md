@@ -10,3 +10,9 @@ The focus of the project is how to interpret the data to choose the best product
 2) Create Visualization data
 3) Sentiment Analysis use method Natural Language Processing for analyze text 
 4) Conclusion
+
+
+df.drop_duplicates("description", keep=False, inplace=True)
+df.dropna(subset=["designation","price"], inplace=True)
+
+check outlayer
