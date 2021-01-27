@@ -85,3 +85,13 @@ Best_5_points['tokenized_sents'] = Best_5_points.apply(lambda row: nltk.word_tok
 Generate WordCloud from the best  wine Tokenizations
 
 <img width="350" alt="Capture12" src="https://user-images.githubusercontent.com/37181764/105988404-da17ee00-609f-11eb-82e4-b2b456f0606d.PNG">
+
+Count the occurency
+
+```python
+cnt = Counter()
+for word in total_5_wine_description:
+    cnt[word] +=1
+cnt.most_common()
+```
+
