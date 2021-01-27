@@ -38,3 +38,14 @@ df["variety"].value_counts().head().plot(kind="bar")
 df["country"].value_counts().head().plot(kind="bar")
 ```
 <img width="534" alt="Capture6" src="https://user-images.githubusercontent.com/37181764/105985304-96bb8080-609b-11eb-8001-6dbbe5440a37.PNG">
+
+```python
+df.loc[df['price'].idxmax()]
+df.loc[df['points'].idxmax()]
+
+largest_five=df.nlargest(5, ['price'])
+ax = sn.barplot(x="wine and winery", y="price" ,data=largest_five)
+# rortate x label , problem to rotate the name not fit the bar 
+ax.set_xticklabels(ax.get_xticklabels(),rotation=90)
+ax.set_title("Relation price for wine")
+```
