@@ -35,4 +35,5 @@ check outlayer <br>
 #### Create Visualization
 ```python
 df["variety"].value_counts().head().plot(kind="bar")
+df["country"].value_counts().head().plot(kind="bar")
 ```
