@@ -28,5 +28,8 @@ for a in df.itertuples():
             blanks.append(a)
 ```
 
-check outlayer
+check outlayer <br>
+
 <img width="280" alt="Capture1" src="https://user-images.githubusercontent.com/37181764/105983230-b3a28480-6098-11eb-94fe-25c29d21ddab.PNG">
+
+<img width="241" alt="Capture2" src="https://user-images.githubusercontent.com/37181764/105983711-68d53c80-6099-11eb-92df-fba121c95019.PNG">
