@@ -103,4 +103,5 @@ cnt.most_common()
 For the market The Pinot Noir by WIlliam Selyem have the best Quality and the lowest Price!, the most wines came from to Us and the Italian wines have the highest positive scores in the market. For the wine description we can consulting the most common words reported by the highest points wines and the most commons words by the 5 best wine. 
 
 
-<img width="199" alt="Capture14" src="https://user-images.githubusercontent.com/37181764/105988976-be611780-60a0-11eb-8391-ea44d2a8cb68.PNG">
+<img width="567" alt="index" src="https://user-images.githubusercontent.com/37181764/105993314-8957c380-60a6-11eb-9ba1-f35cacded2c7.png">
+
