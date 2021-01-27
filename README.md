@@ -49,3 +49,5 @@ ax = sn.barplot(x="wine and winery", y="price" ,data=largest_five)
 ax.set_xticklabels(ax.get_xticklabels(),rotation=90)
 ax.set_title("Relation price for wine")
 ```
+
+<img width="647" alt="Capture9" src="https://user-images.githubusercontent.com/37181764/105985751-324cf100-609c-11eb-9cd1-e55ca83b6d0a.PNG">
