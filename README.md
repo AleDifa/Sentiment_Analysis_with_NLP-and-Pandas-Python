@@ -30,7 +30,7 @@ for a in df.itertuples():
 <img width="735" alt="Capture3" src="https://user-images.githubusercontent.com/37181764/105983807-8dc9af80-6099-11eb-8041-df055c37152c.PNG">
 
 check outlayer <br>
-
+<img width="517" alt="Capture1" src="https://user-images.githubusercontent.com/37181764/105984223-19434080-609a-11eb-9380-0ceef266d3fd.PNG">
 
 #### Create Visualization
 ```python
