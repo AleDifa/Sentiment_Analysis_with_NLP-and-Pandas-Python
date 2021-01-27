@@ -81,3 +81,6 @@ from nltk.tokenize import word_tokenize
 Best_5_points['tokenized_sents'] = Best_5_points.apply(lambda row: nltk.word_tokenize(row['description']), axis=1)
 ```
 <img width="446" alt="Capture11" src="https://user-images.githubusercontent.com/37181764/105987481-a12b4980-609e-11eb-893b-b1ef57bc5185.PNG">
+
+Generate WordCloud from the best  wine Tokenizations
+
