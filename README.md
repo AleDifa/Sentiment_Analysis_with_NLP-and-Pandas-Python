@@ -39,6 +39,8 @@ df["country"].value_counts().head().plot(kind="bar")
 ```
 <img width="534" alt="Capture6" src="https://user-images.githubusercontent.com/37181764/105985304-96bb8080-609b-11eb-8001-6dbbe5440a37.PNG">
 
+
+Relation about Wine Winery and Points, at left we have the wine with more Points and the wine with higghest price  
 ```python
 df.loc[df['price'].idxmax()]
 df.loc[df['points'].idxmax()]
