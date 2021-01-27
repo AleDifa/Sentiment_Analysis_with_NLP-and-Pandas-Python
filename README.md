@@ -12,7 +12,21 @@ The focus of the project is how to interpret the data to choose the best product
 4) Conclusion
 
 
+#### Cleaning Data
+
+```python
 df.drop_duplicates("description", keep=False, inplace=True)
 df.dropna(subset=["designation","price"], inplace=True)
+```
+
+Delete white space
+```python
+white_space=[]
+for a in df.itertuples():
+    if type(a) == str:
+        if a.isspace():
+            blanks.append(a)
+```
 
 check outlayer
+<img width="280" alt="Capture1" src="https://user-images.githubusercontent.com/37181764/105983230-b3a28480-6098-11eb-94fe-25c29d21ddab.PNG">
