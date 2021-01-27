@@ -3,9 +3,9 @@ la seguente rappresentazione estrapola i concetti essenziali, per vedere il codi
 
 Il focus del progetto è come interpretare i dati per scegliere il miglior prodotto nel mercato del vino da produrre ed il miglior testo da associarvi per un buon impatto marketing 
 per capire il miglior prodotto ci affideremo all'analisi dati, mentre per capire quali sono le parole più accattivanti da poter usare ci affideremo  alle tecniche di NLP. 
+<br>
 
-
-Wine Project
+### Wine Project
 1) Cleaning dataset
 2) Create Visualization data
 3) Sentiment Analysis use method Natural Language Processing for analyze text 
