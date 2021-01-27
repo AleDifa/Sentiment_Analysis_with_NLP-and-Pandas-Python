@@ -73,3 +73,10 @@ New column with polarity for each row in descrption column
 Best_5_points["scores"] = Best_5_points["description"].apply(lambda description: sid.polarity_scores(description))
 ```
 <img width="384" alt="Capture10" src="https://user-images.githubusercontent.com/37181764/105986714-915f3580-609d-11eb-8568-a63c7f8fc006.PNG">
+
+
+we have create new column with compund, comp_score and rating, let's create tokenized_sents
+```python
+from nltk.tokenize import word_tokenize
+Best_5_points['tokenized_sents'] = Best_5_points.apply(lambda row: nltk.word_tokenize(row['description']), axis=1)
+```
