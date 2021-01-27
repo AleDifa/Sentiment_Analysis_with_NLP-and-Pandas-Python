@@ -28,8 +28,8 @@ for a in df.itertuples():
             blanks.append(a)
 ```
 <img width="735" alt="Capture3" src="https://user-images.githubusercontent.com/37181764/105983807-8dc9af80-6099-11eb-8041-df055c37152c.PNG">
-
-check outlayer <br>
+<br>
+check outlayer 
 <img width="517" alt="Capture1" src="https://user-images.githubusercontent.com/37181764/105984223-19434080-609a-11eb-9380-0ceef266d3fd.PNG">
 
 #### Create Visualization
@@ -55,3 +55,20 @@ ax.set_title("Relation price for wine")
 Relation about Wine Winery and Points, at left we have the wine with more Points and the wine with higghest price  
 
 <img width="647" alt="Capture9" src="https://user-images.githubusercontent.com/37181764/105985751-324cf100-609c-11eb-9cd1-e55ca83b6d0a.PNG">
+
+
+#### Sentiment Analysis use method Natural Language Processing for analyze text 
+
+import Spicy Library and load English language
+```python
+import spacy
+from nltk.corpus import stopwords
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+nlp = spacy.load('en')
+sid = SentimentIntensityAnalyzer()
+```
+<br>
+New column with polarity for each row in descrption column
+```python
+Best_5_points["scores"] = Best_5_points["description"].apply(lambda description: sid.polarity_scores(description))
+```
